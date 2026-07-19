@@ -4,7 +4,7 @@ An end-to-end Agentic AI workflow designed to predict medical appointment no-sho
 ## 📖 Project Overview
 Missed medical appointments (no-shows) cost healthcare systems significant time and resources. This project solves this problem by moving beyond simple predictions. It employs an **Agentic AI Workflow** that perceives patient risk, reasons over the data to formulate a retention strategy, and takes autonomous action by messaging the patient.
 
-This project was developed for **AIT403 (Advanced Data Analysis)** and fulfills the requirements for predictive model development, API deployment, and agentic AI orchestration.
+This project was developed for **AIT403 (Advanced Data Analysis)** of Xiamen University Malaysia and fulfills the requirements for predictive model development, API deployment, and agentic AI orchestration.
 
 ## ⚙️ Architecture & Pipeline
 This system follows a strict **Perceive → Reason → Act** agentic pipeline:
