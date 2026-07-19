@@ -10,7 +10,7 @@ This repository contains the machine learning inference API for a medical appoin
 
 ## Live API Endpoint
 The API is live and can be tested interactively via the Swagger UI interface:
-**[Live API URL pending Render deployment]/docs**
+**https://patient-noshow-api.onrender.com/docs**
 
 ## How to Use
 Send a `POST` request to `/predict` with the following JSON payload structure:
