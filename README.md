@@ -27,7 +27,7 @@ This system follows a strict **Perceive → Reason → Act** agentic pipeline:
 The predictive model is a size-constrained **Random Forest Classifier** (`n_estimators=75`, `max_depth=10`) trained on a public dataset of over 100,000 medical appointments in Brazil. 
 * **Feature Engineering:** Extracted `Wait_days` from timestamps and engineered a robust `historical_no_show_rate` to capture patient behavior without data leakage.
 * **Class Imbalance:** Applied **SMOTE** strictly to the training data to correct an 80/20 class imbalance, prioritizing high Recall for catching true no-shows.
-* **Optimization:** Serialized via `joblib` with zlib compression to ensure the deployment artifact remains lightweight (under 20MB).
+* **Optimization:** Serialized via `joblib` with zlib compression to ensure the deployment artifact remains lightweight.
 
 ## 📂 Repository Structure
 ```text
