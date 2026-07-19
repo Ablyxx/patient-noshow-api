@@ -34,7 +34,7 @@ The predictive model is a size-constrained **Random Forest Classifier** (`n_esti
 ├── Data Preparation, EDA, Predictive Model Development.ipynb  # Data wrangling, SMOTE, and ML training
 ├── main.py                                                    # FastAPI backend script
 ├── app.py                                                     # Streamlit frontend script
-├── noshow_model.joblib                                        # Serialized Random Forest model
+├── missed_appointment_model.joblib                            # Serialized Random Forest model
 ├── requirements.txt                                           # Python dependencies
 └── README.md                                                  # Project documentation
 ```
